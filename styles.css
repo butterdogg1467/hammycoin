@@ -38,14 +38,19 @@ header > h1 {
 
 div:first-of-type {
     text-align: center;
-    width: 500px;
+    max-width: 500px;
     margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 div:first-of-type > h1 {
     font-size: 100px;
     margin: 0px;
     font-family: 'Ethereal Thin', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
 }
 
 .timer > h1 {
