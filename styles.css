@@ -53,8 +53,10 @@ div:first-of-type > h1 {
 }
 
 .bodypar {
-    width: 700px;
+    max-width: 700px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .bodypar > p {
@@ -63,6 +65,9 @@ div:first-of-type > h1 {
     font-size: 25px;
     letter-spacing: 1px;
     word-spacing: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
 }
 
 .icons {
@@ -98,6 +103,7 @@ div:first-of-type > h1 {
 
 .ca {
     font-family: "Cabin", sans-serif;
+    text-align: center;
 }
 
 a {
