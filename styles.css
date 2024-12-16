@@ -109,6 +109,13 @@ div:first-of-type > h1 {
 a {
     font-family: "Cabin", sans-serif;
     color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+a:hover {
+    transform: scale(1.2);
 }
 
 footer {
