@@ -49,6 +49,7 @@ div:first-of-type > h1 {
     margin: 0px;
     margin-top: 20px;
     font-weight: 100;
+    font-family: "Cabin", sans-serif;
 }
 
 .bodypar {
