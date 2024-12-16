@@ -98,3 +98,13 @@ div:first-of-type > h1 {
 .ca {
     font-family: "Cabin", sans-serif;
 }
+
+a {
+    font-family: "Cabin", sans-serif;
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
