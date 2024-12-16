@@ -1,0 +1,100 @@
+body {
+    background-image: url(IMG_1953.jpg);
+    background-size: 600px;
+    background-repeat: repeat;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 0px;    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+@font-face {
+    font-family: 'Ethereal Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ethereal Thin'), url('Ethereal-Thin.woff') format('woff');
+}
+
+header {
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 45px;
+    font-family: "Cabin", sans-serif;
+    margin: 0px;
+    
+}
+
+div:first-of-type {
+    text-align: center;
+    width: 500px;
+    margin: 0px;
+}
+
+div:first-of-type > h1 {
+    font-size: 100px;
+    margin: 0px;
+    font-family: 'Ethereal Thin', sans-serif;
+}
+
+.timer > h1 {
+    font-size: 50px;
+    margin: 0px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.bodypar {
+    width: 700px;
+    text-align: center;
+}
+
+.bodypar > p {
+    font-family: "Cabin", sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(2, 75px);
+    width: 150px;
+    height: 75px;
+}
+
+.telegram {
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+
+.twitter {
+    justify-self: center;
+    align-self: center;
+}
+
+.twitterimg,
+.telegramimg {
+    width: 45px;
+    height: 45px;
+    transition: transform 0.2s;
+}
+
+.twitterimg:hover,
+.telegramimg:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.ca {
+    font-family: "Cabin", sans-serif;
+}
