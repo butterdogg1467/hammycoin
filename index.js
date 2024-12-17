@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-let date = new Date("Dec 19, 2024 00:00:00").getTime()
+let date = new Date("Dec 21, 2024 00:00:00").getTime()
 
 let x = setInterval(function() {
     let now = new Date().getTime()
